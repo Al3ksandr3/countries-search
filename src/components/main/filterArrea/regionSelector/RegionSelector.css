@@ -1,0 +1,43 @@
+.region-selector {
+  height: 80%;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.region-selector__text {
+  font-size: 1.2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.region-selector__text__btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.region-selector__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  cursor: pointer;
+}
+
+.region-selector--dark {
+  background-color: rgb(75, 76, 76);
+}
+
+.region-selector--dark .region-selector__icon {
+  filter: invert(100%);
+}
